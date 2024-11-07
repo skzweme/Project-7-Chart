@@ -136,8 +136,10 @@ function showChart(key, asc) {
         .attr("class", function(d) {
             if (d.isEliminated) {
                 return "top";
+            } else if (d.latestRank<8) {                
+                return "top seven";
             } else {
-                return "top wanna-members";
+                return "top current"
             }
         })
         .html(function(d) {
@@ -318,7 +320,7 @@ function getRankInfo(d) {
     if (d.isEliminated) {
         return "Eliminated in Episode " + episodes[d.ranking.length - 1];
     }
-    return "Wanna One Member, Rank " + d.currentRank + " " + displayRankChange(d);
+    return "Curent Top 7, Rank " + d.currentRank + " " + displayRankChange(d);
 }
 
 function updateNotes(d) {
