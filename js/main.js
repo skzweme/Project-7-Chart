@@ -18,11 +18,11 @@ var totalData;
 var dFirst;
 
 var colors = {
-    "A": "#fb9fcb",
-    "B": "#ff951c",
-    "C": "#fff200",
-    "D": "#00a500",
-    "F": "gray"
+    "S": "#fff46f",
+    "A": "#6fc6ff",
+    "B": "#ff6fe7",
+    "C": "#a4a4a4",
+    "F": "707070"
 };
 
 // Set up plot
