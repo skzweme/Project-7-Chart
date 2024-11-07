@@ -154,9 +154,12 @@ path.ranking {
   #top #topBody tr {
     cursor: pointer; }
     #top #topBody tr:hover {
-      background: #e6e6e6 !important; }
-    #top #topBody tr.wanna-members {
-      background: #eee; }
+      background: #eeeeee !important; }
+    #top #topBody tr.seven {
+      background: #cfeff7; }
+    #top #topBody tr.current {
+      background: #e5e5e5;
+    }
   #top td {
     padding: 5px 15px;
     border-bottom: 1px solid #ccc; }
